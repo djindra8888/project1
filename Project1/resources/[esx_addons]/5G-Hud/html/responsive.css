@@ -1,0 +1,598 @@
+
+@media (width: 2560px) and (height: 1080px) {
+    
+    .mapa {
+        position: absolute!important;
+        bottom: 1vw!important;
+        left: 14.5vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 9.4vw!important;
+        height: 9.4vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .3vw solid #00ADFA!important;
+        bottom: 1.2vw!important;
+        left: 1.1vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 12.2vw!important;
+        height: 12.2vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+    .calleposition {
+        position: absolute;
+        bottom: 2vw;
+        left: 26vw;
+    }
+    
+    .calle {
+        display: inline-flex;
+    }
+    
+    .calle img {
+        width: 1.4vw;
+        height: 1.4vw;
+    }
+    
+    .calle h1 {
+        margin-left: .2vw;
+       font-family: ClauFont;
+       font-size: .7vw;
+       color: white;
+    } 
+
+    .playerJOB span {
+        font-size: .8vw;
+    }
+      
+    .playerJOB i {
+        color: white;
+    }
+    
+    [class="zone"] {
+        font-size: .8vw;
+   }
+    
+    .zone i {
+        font-size: .8vw;
+    }
+
+    [class="zoneX"] {
+        font-size: .8vw;
+   }
+    
+    .zoneX i {
+        font-size: .8vw;
+    }
+
+    [class="ammo"] {
+        font-size: .8vw; 
+    }   
+
+    .ammo h1 {
+        font-size: .8vw;
+    }
+} 
+
+@media (width: 2560px) and (height: 1440px) {
+
+    .mapa {
+        position: absolute!important;
+        bottom: 1.1vw!important;
+        left: 2.1vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 12.8vw!important;
+        height: 12.8vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.5vw!important;
+        left: 1.5vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 16.5vw!important;
+        height: 16.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+    .calleposition {
+        position: absolute;
+        bottom: 2vw;
+        left: 17vw;
+    }
+    
+    .calle {
+        display: inline-flex;
+    }
+    
+    .calle img {
+        width: 1.4vw;
+        height: 1.4vw;
+    }
+    
+    .calle h1 {
+        margin-left: .2vw;
+       font-family: ClauFont;
+       font-size: .7vw;
+       color: white;
+    } 
+
+    .playerJOB span {
+        font-size: .8vw;
+    }
+      
+    .playerJOB i {
+        color: white;
+    }
+    
+    [class="zone"] {
+        font-size: .8vw;
+   }
+    
+    .zone i {
+        font-size: .8vw;
+    }
+
+    [class="zoneX"] {
+        font-size: .8vw;
+   }
+    
+    .zoneX i {
+        font-size: .8vw;
+    }
+
+    [class="ammo"] {
+        font-size: .8vw; 
+    }   
+
+    .ammo h1 {
+        font-size: .8vw;
+    }
+    
+} 
+
+@media (width: 1680px) and (height: 1050px) {
+
+    .mapa {
+        position: absolute!important;
+        bottom: 1.6vw!important;
+        left: 2.5vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 13.6vw!important;
+        height: 13.6vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.6vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 17.5vw!important;
+        height: 17.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+} 
+
+@media (width: 1600px) and (height: 1024px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.7vw!important;
+        left: 2.5vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 13.6vw!important;
+        height: 13.6vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.7vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 17.5vw!important;
+        height: 17.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+} 
+    
+
+@media (width: 1600px) and (height: 900px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.7vw!important;
+        left: 2.5vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 13.6vw!important;
+        height: 13.6vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.7vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 17.5vw!important;
+        height: 17.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+} 
+
+@media (width: 1440px) and (height: 900px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.7vw!important;
+        left: 2.5vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 13.6vw!important;
+        height: 13.6vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.6vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 17.5vw!important;
+        height: 17.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+} 
+
+@media (width: 1280px) and (height: 1024px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 2.7vw!important;
+        left: 3.5vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 17.6vw!important;
+        height: 17.6vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.6vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 21.5vw!important;
+        height: 21.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+@media (width: 1280px) and (height: 960px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 2.1vw!important;
+        left: 3.2vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 16.6vw!important;
+        height: 16.6vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.6vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 20.5vw!important;
+        height: 20.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+@media (width: 1280px) and (height: 800px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.5vw!important;
+        left: 2.5vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 13.8vw!important;
+        height: 13.8vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.6vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 17.7vw!important;
+        height: 17.7vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+@media (width: 1600px) and (height: 900px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.2vw!important;
+        left: 2.1vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 12.8vw!important;
+        height: 12.8vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.6vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 16.7vw!important;
+        height: 16.7vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+@media (width: 1280px) and (height: 768px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.2vw!important;
+        left: 2.1vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 13.8vw!important;
+        height: 13.8vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.6vw!important;
+        left: 1.6vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 17.7vw!important;
+        height: 17.7vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+
+@media (width: 1152px) and (height: 864px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.9vw!important;
+        left: 2.7vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 17.2vw!important;
+        height: 17.2vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.9vw!important;
+        left: 1.9vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 21.5vw!important;
+        height: 21.5vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+@media (width: 1024px) and (height: 768px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.9vw!important;
+        left: 2.7vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 17.4vw!important;
+        height: 17.4vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.9vw!important;
+        left: 1.9vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 21.7vw!important;
+        height: 21.7vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+@media (width: 800px) and (height: 600px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.9vw!important;
+        left: 2.7vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 16.4vw!important;
+        height: 16.4vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA!important;
+        bottom: 1.9vw!important;
+        left: 1.9vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 20.7vw!important;
+        height: 20.7vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: 0vw!important;
+    }
+    
+} 
+
+@media (width: 1920px) and (height: 1200px) {
+    .mapa {
+        position: absolute!important;
+        bottom: 1.1vw!important;
+        left: 2.1vw!important;
+    }
+    
+    .mapborde {
+        position: relative!important;
+        width: 14.3vw!important;
+        height: 14.3vw!important;
+        -moz-border-radius: 50%!important;
+        -webkit-border-radius: 50%!important;
+        border-radius: 50%!important;
+        border: .4vw solid #00ADFA;
+        bottom: 1.5vw!important;
+        left: 1.7vw!important;
+      
+    }
+    
+    .mapa img {
+        position: absolute!important;
+        width: 18vw!important;
+        height: 18vw!important;
+        transition: 1s!important;
+        image-resolution: 300dpi!important;
+        bottom: 0vw!important;
+        left: .2vw!important;
+    }
+    
+} 
+/*
+@media (width: 2560px) and (height: 1080px) {
+
+    
+} 
+
+@media (width: 2560px) and (height: 1080px) {
+
+    
+}  */
