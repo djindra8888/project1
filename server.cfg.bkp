@@ -1,0 +1,116 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+#    ___ _____  __  _    ___ ___   _   _____   __   #
+#   | __/ __\ \/ / | |  | __/ __| /_\ / __\ \ / /   #
+#   | _|\__ \>  <  | |__| _| (_ |/ _ \ (__ \ V /    #
+#   |___|___/_/\_\ |____|___\___/_/ \_\___| |_|     #
+#                                                   #
+#     Discord: https://discord.gg/esx-framework     #
+#     Website: https://esx-framework.org/           #
+#     CFG Docs: https://aka.cfx.re/server-commands  #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+## You CAN edit the following:
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+
+sets tags "default, deployer, esx, esx legacy, legacy, official, roleplay"
+
+## You MAY edit the following:
+sv_licenseKey "cfxk_1N7nKd173scolM149zFxt_1v5rCy"
+sv_hostname "PROJECT-1 | ESX Legacy Server"
+sets sv_projectName " PROJECT-1| [ESX Legacy]"
+sets sv_projectDesc "The official recipe of the most popular FiveM RP framework, containing Jobs, Housing, Vehicles & more!"
+set mysql_connection_string "mysql://root@localhost/project1?charset=utf8mb4"
+set mysql_ui true
+load_server_icon logo.png
+
+sv_maxclients 8
+
+set steam_webApiKey "80C90821179911F86D7FC132312BD591"
+
+
+set SCREENSHOT_BASIC_TOKEN a794126529fdd8e
+set NPWD_AUDIO_TOKEN your_api_token
+
+
+## Add system admins
+add_principal group.admin group.user
+add_ace group.admin command allow # allow all commands
+add_ace group.admin command.quit deny # but don't allow quit
+add_ace resource.es_extended command.add_ace allow
+add_ace resource.es_extended command.add_principal allow
+add_ace resource.es_extended command.remove_principal allow
+add_ace resource.es_extended command.stop allow
+add_principal identifier.fivem:9697738 group.admin #VIDEO_DJ
+
+add_ace resource.ox_lib command.add_ace allow
+add_ace resource.ox_lib command.remove_ace allow
+add_ace resource.ox_lib command.add_principal allow
+add_ace resource.ox_lib command.remove_principal allow
+
+## pma-voice config
+setr voice_enableRadioAnim 1
+setr voice_useNativeAudio true
+setr voice_useSendingRangeOnly true
+
+## ESX Translation convar (edit to change the language of ESX 
+setr esx:locale "en"
+
+## Default & Standalone resources
+stop chat
+ensure codem-chat
+ensure spawnmanager
+ensure hardcap
+ensure oxmysql
+ensure bob74_ipl
+#ensure loadingscreen # enables the default Plume Loadingscreen
+
+
+### ESX Legacy
+ensure es_extended
+ensure oxmysql
+ensure pe-core
+ensure esx-npwd
+ensure PolyZone
+ensure xsound
+ensure screenshot-basic
+ensure qs-base
+ensure qs-videos
+ensure qs-smartphone
+ensure pma-voice
+ensure ox_lib
+ensure qtarget
+ensure qb-target
+ensure ox_target
+exec @ox_inventory/config.cfg
+ensure ox_inventory
+ensure mysql-async
+
+## Sumber daya dasar yang diperlukan
+ensure 5G-Hud
+ensure esx_menu_default
+ensure esx_menu_dialog
+ensure esx_menu_list
+ensure skinchanger
+ensure esx_skin
+ensure esx_datastore
+ensure esx_license
+ensure esx_identity
+
+## Sumber daya tambahan (opsional)
+# Tambahkan sumber daya tambahan yang Anda inginkan di sini
+# Contoh:
+ensure esx_jobs
+ensure esx_vehicleshop
+ensure esx_policejob
+ensure esx_ambulancejob
+ensure esx_shops
+ensure esx_drugs
+
+## Addons ESX
+ensure [core]
+ensure [extras]
+ensure [standalone]
+ensure [esx_addons]
+
